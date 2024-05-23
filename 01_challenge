@@ -1,0 +1,35 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity 0.8.25;
+contract variable{
+
+
+ // declare all four variables 
+
+int public x;
+string public y;
+bool public z;
+address public w;
+
+function integer_ (int a) public returns(int){
+    x = a;
+    return x;
+}
+
+
+function string_(string memory b) public returns(string memory){
+    y= b;
+    return b;
+}
+
+function bool_(bool c) public returns (bool){
+    z= c;
+    return z;
+}
+
+function address_(address d) public returns (address){
+    w =d;
+    return w;
+}
+
+}
